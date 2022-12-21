@@ -19,7 +19,7 @@ class Home extends StatelessWidget {
           padding: const EdgeInsets.symmetric(vertical: 30, horizontal: 70),
           child: Column(
             children: [
-              const SizedBox(height: 150),
+              const SizedBox(height: 120),
               FullWidthButton(context, "Scan QR Code"),
               const SizedBox(height: 100),
               FullWidthButton(context, "Sign In"),
