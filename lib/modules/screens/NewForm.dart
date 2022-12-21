@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_fair_proj/global/widgets/background_image.dart';
-import 'package:flutter_fair_proj/global/widgets/global_app_bar.dart';
-import 'package:flutter_fair_proj/global/widgets/text_label.dart';
-import 'package:google_fonts/google_fonts.dart';
+import 'package:flutter_fair_proj/global/widgets/BackButton.dart';
+import 'package:flutter_fair_proj/global/widgets/GlobalAppBar.dart';
+import 'package:flutter_fair_proj/global/widgets/TextLabel.dart';
 
 class NewForm extends StatefulWidget {
   const NewForm({super.key});
@@ -14,10 +13,9 @@ class NewForm extends StatefulWidget {
 class _NewFormState extends State<NewForm> {
   @override
   Widget build(BuildContext context) {
-    return Stack(children: [
-      const BackgroundImage(),
+    return 
       Scaffold(
-          appBar: globalAppBar(context, title: "New Form", actions: [_backButton(context)]),
+          appBar: globalAppBar(context, title: "New Form", actions: [backButton(context)]),
           // appBar: AppBar(title: const Text("New form")),
           body: Padding(
               padding: const EdgeInsets.all(12.0),
@@ -31,19 +29,8 @@ class _NewFormState extends State<NewForm> {
                 ],
               )
             )
-          )
-    ]);
+        );
   }
 
-  Widget _backButton(BuildContext context) {
-    final ButtonStyle style = TextButton.styleFrom(
-      foregroundColor: const Color.fromRGBO(93, 90, 180, 1),//Theme.of(context).colorScheme.onPrimary,
-    );
-
-    return TextButton(
-            style: style,
-            onPressed: () {Navigator.pop(context, "From new form page");},
-            child: const Text('Back'),
-          );
-  }
+  
 }

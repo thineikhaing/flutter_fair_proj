@@ -8,6 +8,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.9.0"
+  barcode_scan2:
+    dependency: "direct main"
+    description:
+      name: barcode_scan2
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "4.2.1"
   bloc:
     dependency: "direct main"
     description:
@@ -99,6 +106,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "6.1.4"
+  fixnum:
+    dependency: transitive
+    description:
+      name: fixnum
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.0.1"
   flutter:
     dependency: "direct main"
     description: flutter
@@ -123,6 +137,13 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  flutter_riverpod:
+    dependency: "direct main"
+    description:
+      name: flutter_riverpod
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "2.1.1"
   flutter_test:
     dependency: "direct dev"
     description: flutter
@@ -142,6 +163,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "4.6.5"
+  get_storage:
+    dependency: "direct main"
+    description:
+      name: get_storage
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "2.0.3"
   google_fonts:
     dependency: "direct main"
     description:
@@ -220,7 +248,7 @@ packages:
     source: hosted
     version: "1.8.2"
   path_provider:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: path_provider
       url: "https://pub.dartlang.org"
@@ -289,6 +317,27 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "4.2.4"
+  protobuf:
+    dependency: transitive
+    description:
+      name: protobuf
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "2.1.0"
+  qr:
+    dependency: transitive
+    description:
+      name: qr
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "2.1.0"
+  qr_flutter:
+    dependency: "direct main"
+    description:
+      name: qr_flutter
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "4.0.0"
   riverpod:
     dependency: "direct main"
     description:
@@ -329,6 +378,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.7.2+1"
+  step_progress_indicator:
+    dependency: "direct main"
+    description:
+      name: step_progress_indicator
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.0.2"
   stream_channel:
     dependency: transitive
     description:
